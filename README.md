@@ -1,4 +1,4 @@
-# React Simple Components
+# React Composing Components
 
 ![React.js](./images/reactjs.png)
 
