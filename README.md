@@ -12,7 +12,7 @@ In this project are components, which go through a few phases during their lifec
 `The second lifestyle is the update phase`, and this happens when the state, or the props of a component get changed. In this phase we have 2 lifecycle hooks, `render` and `componentDidUpdate`. So whenever we change the state of a component, or give it new props, these two methods are called in order. Update phase happens whenever the state or props of a component changes. This method is called after a component is updated. Which means we have new state or new props, so we can compare this new state with the old state or the new props with the old props and if there's a change we can make an AJAX request to get new data from the server.<br>
 `And the last phase is the unmounting phase`, and this is when a component is removed from the DOM such as when we delete the counter. I mean `componentWillUnmount`. ComponentWillUnmount method is called just before a component is removed from the DOM. React compare virtual DOM with the old one, it figures out that one of our component is removed, so then it will call component will unmount before removing this component from the DOM. And this gives us an opportunity to do any kind of cleanup. So if you have set up timers, or listeners, we can clean those up before this component is removed from the DOM, otherwise we'll end up with memory leaks<br>
 
-### Content:
+## Content:
 
 components/:
 
@@ -33,7 +33,7 @@ src/App.jsx
 
 - [./src/App.jsx](./src/App.jsx)
 
-### Project screenshots:
+## Project screenshots:
 
 Counter component<br>
 ![Counter component](./images/1-counter-component/1.png)
