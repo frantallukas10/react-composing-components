@@ -33,7 +33,7 @@ src/App.jsx
 
 - [./src/App.jsx](./src/App.jsx)
 
-#Project screenshot:
+### Project screenshots:
 
 Counter component<br>
 ![Counter component](./images/1-counter-component/1.png)
