@@ -1,6 +1,7 @@
 {
-  "name": "vidly",
+  "name": "react-composing-components",
   "version": "0.1.0",
+  "author": "Ing. Lukáš Frantál",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.1.3",
